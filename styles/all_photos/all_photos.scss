@@ -80,13 +80,14 @@ li {
 }
 
 .images {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 1em;
+    justify-items: center;
     img {
         display: flex;
-        justify-content: center;
         width: 200px;
         height: 250px;
     }
